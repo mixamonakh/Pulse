@@ -1,0 +1,89 @@
+@media (max-width: 1200px) {
+    
+}
+@media (max-width: 991px) {
+    .container {
+        max-width: 800px;
+    }
+    .promo {
+        padding: 16px 15px 80px 15px;
+        background: url(../../img/bg991.jpg) center (center/cover) no-repeat;
+    }
+    .benefit {
+        padding: 70px 10px 64px 10px;
+        &__text {
+            width: 230px;
+        }
+        &__icon {
+            margin-right: 6px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .promo {
+        .header {
+            &__phone {
+                font-size: 16px;
+            }
+        }
+        padding: 16px 15px 80px 15px;
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__icons {
+            width: 360px;
+        }
+        .button_main {
+            width: 250px;
+            font-size: 14px;
+        }
+    }
+    .benefit {
+        &__icons {
+            display: block;
+        }
+        &__text {
+            width: 50%;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+        img {
+            margin-top: 10px;
+        }
+    }
+}
+@media (max-width: 575px) {
+    .header {
+        flex-direction: column;
+        &__official {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+            span {
+                font-size: 19px;
+            }
+        &__contacts {
+            margin-top: 10px;
+        }
+        .button {
+            margin: 0 auto;
+            width: 170px;
+            height: 40px;
+            font-size: 13px;
+        }
+    }
+    .promo {
+        &__subheader {
+            text-align: right;
+        }
+        &__icons {
+            width: 300px;
+        }
+        .button_main {
+            width: 200px;
+        }
+    }
+}
