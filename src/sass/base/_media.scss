@@ -54,6 +54,9 @@
             margin-top: 10px;
         }
     }
+    .consultation {
+        padding: 90px 20px 80px 20px;
+    }
 }
 @media (max-width: 575px) {
     .header {
@@ -66,7 +69,8 @@
                 font-size: 19px;
             }
         &__contacts {
-            margin-top: 10px;
+            margin-top: 35px;
+            align-items: center;
         }
         .button {
             margin: 0 auto;
@@ -76,14 +80,39 @@
         }
     }
     .promo {
+        &__header {
+            text-align: center;
+        }
+        &__wrapper {
+            align-items: center;
+        }
         &__subheader {
-            text-align: right;
+            text-align: center;
         }
         &__icons {
             width: 300px;
+            display: block;
+            margin-top: 15px;
+        }
+        &__icon {
+            margin: 0 auto;
+            margin-bottom: 10px;
+            &:nth-child(3) {
+                margin-bottom: 0;
+            }
         }
         .button_main {
             width: 200px;
+        }
+    }
+    .consultation {
+        .title {
+            &_left {
+                font-size: 32px;
+            }
+        }
+        .feed-form {
+            width: 280px;
         }
     }
 }
