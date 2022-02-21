@@ -1,13 +1,21 @@
 @media (max-width: 1200px) {
-    
+    .carousel {
+        padding: 80px 20px;
+        .prev, .next {
+            display: none;
+        }
+    }
 }
 @media (max-width: 991px) {
+    .consultation {
+        padding: 90px 20px 80px 20px;
+    }
     .container {
         max-width: 800px;
     }
     .promo {
         padding: 16px 15px 80px 15px;
-        background: url(../../img/bg991.jpg) center (center/cover) no-repeat;
+        background: url(../img/bg991.jpg) center (center/cover) no-repeat;
     }
     .benefit {
         padding: 70px 10px 64px 10px;
@@ -53,9 +61,6 @@
         img {
             margin-top: 10px;
         }
-    }
-    .consultation {
-        padding: 90px 20px 80px 20px;
     }
 }
 @media (max-width: 575px) {
