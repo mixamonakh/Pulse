@@ -9,6 +9,14 @@
     }
     &__icon {
         text-align: center;
+        &:hover .benefit__subheader {
+            font-size: 20px;
+            color: $main-color;
+            border: 1px solid $main-color;
+        }
+        &:hover .benefit__text {
+            font-size: 16px;
+        }
     }
     &__subheader {
         color: #0D0D0D;

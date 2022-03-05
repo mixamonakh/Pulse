@@ -1,0 +1,30 @@
+.reviews {
+    min-height: 920px;
+    margin-bottom: 30px;
+    &__header {
+        color: #0D0D0D;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    &__subheader {
+        color: #646464;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 12px;
+    }
+    &__info {
+        color: #0D0D0D;
+        font-weight: 300;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    &__block {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 64px;
+    }
+    &__img {
+        margin-right: 60px;
+    }
+}
